@@ -24,8 +24,10 @@
     height: 50px;
     width: 113px;
 }
+
 .border{
     border: 1.5px transparent;
+    text-decoration: none;
 }
 .border:hover{
     border: 1.5px solid white;
@@ -446,6 +448,6 @@ a{
     margin: 6px;
     font-size: 0.9rem;
 }
-a:hover{
+ul a{
     text-decoration: underline;
 }
