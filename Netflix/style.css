@@ -1,0 +1,217 @@
+
+*{
+  margin: 0%;
+  padding: 0%;
+  background-color: black;
+  color: white;
+  filter: brightness(100%);
+  font-family: system-ui;
+}
+.first-page{
+  height: 700px;
+  width: auto;
+  overflow: hidden;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4),  rgba(0, 0, 0, 0.9)), url(img/background.jpeg);
+  background-size: 1500px 100%;
+  padding-top: 20px;
+  padding-right: 80px;
+  position: relative;
+  top: -70px;
+  z-index: -2;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 6px solid rgb(58, 58, 58);
+}
+
+.topnavbar{
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  margin-top: 20px;
+}
+
+.netflix-logo{
+  background: transparent;
+  margin-right:460px;
+}
+.image-container{
+  background: transparent;
+}
+#langdiv{
+  height: 32px;
+  width: 126px;
+  font-size: 1.04rem;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background: transparent;
+  margin: 20px;
+  margin-left: 100px;
+  padding-left: 20px;
+}
+.sign-in-button{
+  height: 32px;
+  width: 78px;
+  background-color: rgb(225, 30, 30);
+  border: none;
+  border-radius: 5px;
+  margin-right: 30px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.sign-in-button:hover{
+  background-color: rgb(171, 18, 18);
+}
+
+.login-title{
+  background: transparent;
+}
+.text-rate{
+  background: transparent;
+  width: 970px;
+  font-size: 2.92rem;
+  font-weight: 800;
+  text-align: center;
+}
+.join-today{
+  background: transparent;
+  margin: 20px;
+  font-size: 1.6rem;
+  text-align: center;
+}
+.ready-to-watch{
+  background: transparent;
+  margin: 20px;
+  font-size: 1.4rem;
+  text-align: center;
+}
+.email-started--div{
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.email-input{
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 56px;
+  width: 350px;
+  font-size: 1.3rem;
+  padding-left: 20px;
+  border: solid grey;
+  border-radius: 5px;
+}
+.getstarted-button{
+  height: 56px;
+  width: 200px;
+  margin-left: 6px;
+  border: none;
+  font-size: 1.4rem;
+  background-color: rgb(225, 30, 30);
+  font-weight: 600;
+  border-radius: 5px;
+}
+.getstarted-button:hover{
+  background-color: rgb(171, 18, 18);
+}
+.second-page,.third-page,.forth-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 6px solid rgb(58, 58, 58);
+}
+.text-second-page{
+  width: 42%;
+  height: 50%;
+}
+.enjoy-tv{
+  font-size: 3.2rem;
+  font-weight: 700;
+  margin: 20px;
+}
+.tv-img{
+  font-size: 1.7rem;
+  font-weight: 400;
+  margin: 20px;
+}
+.second-last-div{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.asked{
+  margin-bottom: 20px;
+}
+.dropdown-button{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 400;
+  padding: 24px;
+  font-size: 1.9rem;
+  text-align: start;
+  height: 84px;
+  width: 918px;
+  border: none;
+  background-color: rgb(44, 44, 44);
+  margin-bottom: 1px;
+  cursor: pointer;
+}
+.outputlist{
+  font-size: 1.7rem;
+  font-weight: 400;
+  height: auto;
+  width: 870px;
+  border: none;
+  background-color: rgb(44, 44, 44);
+  margin-bottom: 10px;
+}
+.input-text, p{
+  background-color: transparent;
+}
+.dropdown-button:hover, .outputlist:hover{
+  background-color: rgb(74, 73, 73);
+}
+.askedquestion{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+.last-div{
+  border-bottom: 6px solid rgb(58, 58, 58);
+}
+.last-login{
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+.call,.call a, .india{
+  color: rgb(208, 203, 203);
+}
+.call{
+  margin-left: 107px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+.india{
+  margin-left: 107px;
+  margin-bottom: 140px;
+}
+.anchor-div{
+  display: grid;
+  font-size: 0.8rem;
+  grid-template-columns: repeat(4,200px);
+  justify-content: space-evenly;
+  justify-items: start;
+}
+.anchor-div a{
+  color: rgb(208, 203, 203);
+  margin: 12px;
+}
+
+.plus{
+  font-weight: 200;
+  font-size: 4rem;
+  transition: 3ms linear;
+}

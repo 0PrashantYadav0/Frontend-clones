@@ -433,7 +433,7 @@ a{
     height: 40px;
     width: 100px;
     background-color: white;
-    background-image: url(amazon_logo.png);
+    background-image: url(img/amazon_logo.png);
     background-size: cover;
     margin-right: 100px;
 }

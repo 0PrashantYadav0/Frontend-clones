@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix India -Watch TV shows</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="topnavbar">
+      <div class="image-container">
+        <img src="img/download.png" alt="Netflix" height="100px"
+          class="netflix-logo">
+      </div>
+      <select name="lang" id="langdiv">
+        <option value="English">
+          English
+        </option>
+        <option value="hindi">
+          हिंदी
+        </option>
+      </select>
+      <button class="sign-in-button">
+        Sign In
+      </button>
+    </div>
+    <div class="first-page">
+      <div class="login-title">
+        <p class="text-rate">
+          Enjoy big movies, hit series and more from ₹ 149.
+        </p>
+        <p class="join-today">
+          Join today. Cancel anytime.
+        </p>
+        <p class="ready-to-watch">
+          Ready to watch? Enter your email to create or restart your membership.
+        </p>
+        <div class="email-started--div">
+          <input type="email" placeholder="Email address" class="email-input">
+          <button class="getstarted-button">Get Started ></button>
+        </div>
+      </div>
+    </div>
+    <div class="second-page">
+    <div class="text-second-page">
+      <p class="enjoy-tv">
+        Enjoy on your TV
+      </p>
+      <p class="tv-img">
+        Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray
+        players and more.
+      </p>
+    </div>
+    <div class="img-secong-page">
+      <img src="img/tv.png" alt="tv" height="400px">
+    </div>
+    </div>
+    <div class="third-page">
+    <div class="img-secong-page">
+      <img src="img/mobile-0819.jpg" alt="tv" height="400px">
+    </div>
+    <div class="text-second-page">
+      <p class="enjoy-tv">
+        Download your shows to watch offline
+      </p>
+      <p class="tv-img">
+        Save your favourites easily and always have something to watch.
+      </p>
+    </div>
+    </div>
+    <div class="forth-page">
+    <div class="text-second-page">
+      <p class="enjoy-tv">
+        Watch everywhere
+      </p>
+      <p class="tv-img">
+        Stream unlimited movies and TV shows on your phone, tablet, laptop, and
+        TV.
+      </p>
+    </div>
+    <div class="img-secong-page">
+      <img src="img/device-pile-in.png" alt="tv" height="400px">
+    </div>
+    </div>
+    <div class="third-page">
+    <div class="img-secong-page">
+      <img src="img/kids.png" alt="tv" height="400px">
+    </div>
+    <div class="text-second-page">
+      <p class="enjoy-tv">
+        Create profiles for kids
+      </p>
+      <p class="tv-img">
+        Send children on adventures with their favourite characters in a space
+        made just for them—free with your membership.
+      </p>
+    </div>
+    </div>
+    <div class="last-div">
+      <div class="askedquestion">
+      <p class="text-rate asked">
+        Frequently Asked Questions
+      </p>
+      </div>
+      <div class="second-last-div">
+      <button class="dropdown-button whatnetflix" onclick="clickone();">
+        <p>
+          What is Netflix?
+        </p>
+        <p class="first plus">+</p>
+      </button>
+      <div class="outputlist" id="onepass">
+      </div>
+      </div>
+      <div class="second-last-div">
+        <button class="dropdown-button" onclick="clicktwo();">
+          <p>
+            How much Netflix cost?
+          </p>
+          <p class="second plus">+</p>
+        </button>
+        <div class="outputlist" id="twopass">
+        </div>
+      </div>
+      <div class="second-last-div">
+        <button class="dropdown-button" onclick="clickthree();">
+            <p>
+              Where i can watch?
+            </p>
+            <p class="third plus">+</p>
+        </button>
+        <div class="outputlist" id="threepass">
+        </div>
+      </div>
+      <div class="second-last-div">
+          <button class="dropdown-button" onclick="clickfour();">
+              <p>
+                How do I cancel?
+              </p>
+              <p class="forth plus">+</p>
+          </button>
+          <div class="outputlist" id="fourpass">
+          </div>
+      </div>
+      <div class="second-last-div">
+        <button class="dropdown-button" onclick="clickfive();">
+                <p>
+                  What can I watch on Netflix?
+                </p>
+                <p class="fivth plus">+</p>
+        </button>
+        <div class="outputlist" id="fivepass">
+        </div>
+      </div>
+      <div class="second-last-div">
+        <button class="dropdown-button" onclick="clicksix();"> 
+                  <p>
+                    Is Netflix good for kids?
+                  </p>
+                  <p class="sixth plus">+</p>
+        </button>
+        <div class="outputlist" id="sixpass">
+        </div>
+        <div class="login-title last-login">
+                  <p class="ready-to-watch">
+                    Ready to watch? Enter your email to create or restart your membership.
+                  </p>
+                  <div class="email-started--div">
+                    <input type="email" placeholder="Email address" class="email-input">
+                    <button class="getstarted-button">Get Started ></button>
+                  </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-div">
+      <div class="list-div-foot">
+        <p class="call">
+          Questions? Call
+          <a href="#">000-800-919-1694</a>
+        </p>
+        <div class="anchor-div">
+          <a href="#">FAQ</a>
+          <a href="#">Help Centre</a>
+          <a href="#">Account</a>
+          <a href="#">Media Centre</a>
+          <a href="#">Investor Relations</a>
+          <a href="#">Jobs</a>
+          <a href="#">Ways to Watch</a>
+          <a href="#">Terms of Use</a>
+          <a href="#">Privacy</a>
+          <a href="#">Cookie Preferences</a>
+          <a href="#">Corporate Information</a>
+          <a href="#">Contact Us</a>
+          <a href="#">Speed Test</a>
+          <a href="#">Legal Notices</a>
+          <a href="#">Only on Netflix</a>
+        </div>
+        <select name="lang" id="langdiv">
+          <option value="English">
+            English
+          </option>
+          <option value="hindi">
+            हिंदी
+          </option>
+        </select>
+      </div>
+      <p class="india">
+        Netflix India
+      </p>
+    </div>
+  </body>
+  <script src="script.js"></script>
+  </html>
