@@ -1,0 +1,65 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 550;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+  overflow: hidden;
+}
+
+.main{
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+
+.sidebar{
+  width: 23%;
+  border-radius: 1rem;
+}
+.upper-icon-div{
+  background-color: #121212;
+  display: grid;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1.2rem;
+  margin: 8px;
+  border-radius: 0.5rem;
+}
+a{
+  text-decoration: none;
+}
+.icon{
+  display: flex;
+  align-items: center;
+  background: transparent;
+  padding: 0.6rem;
+}
+.icon i{
+  font-size: 1.5rem;
+}
+.home i, .search i{
+  margin-right: 0.7rem;
+}
+.search{
+  opacity: 60%;
+}
+.search:hover{
+  opacity: 100%;
+}
+
+.main-body{
+  overflow: auto;
+  border-radius: 1rem;
+  width: 77%;
+  background-color: #121212;
+}
+
+.player{
+  height: 11vh;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: #000;
+}
